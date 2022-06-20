@@ -1,0 +1,51 @@
+:root {
+    --tealColor: #26B999;
+    --orangeColor: #F29C1F
+}
+
+html { font-family: 'Open Sans', sans-serif; display: block; margin: 0px auto; color: #444444;}
+body{margin: 0px;}
+h1 {margin: 50px auto 30px;}
+.side-by-side{display: table-cell;vertical-align: middle;position: relative;}
+.text{font-weight: 600;font-size: 19px;width: 200px;}
+.reading{font-weight: 300;font-size: 50px;padding-right: 25px;}
+.temperature .reading{color: var(--orangeColor);}
+.BPM .reading{color: var(--tealColor);}
+.superscript{font-size: 17px;font-weight: 600;position: absolute;top: 10px;}
+.data{padding: 10px;}
+.container{display: table;margin: 0 auto; text-align: center;}
+.icon{width:65px}
+
+.button {
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 20px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    color: white;
+    border: none;
+    border-radius: 5%;
+  }
+  
+.start {
+    background-color: var(--tealColor);
+    border: 2px solid var(--tealColor);
+}
+
+.start:hover {
+    background-color: white;
+    color: var(--tealColor);
+}
+
+.stop {
+    background-color: var(--orangeColor);
+    border: 2px solid var(--orangeColor);
+}
+
+.stop:hover {
+    background-color: white;
+    color: var(--orangeColor);
+}

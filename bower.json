@@ -1,0 +1,22 @@
+{
+  "name": "ehealth",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Atag Mustapha"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

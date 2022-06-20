@@ -1,0 +1,13 @@
+doctype html
+html
+    head
+        title eHealth web app
+        link(rel="stylesheet" href="/static/bower_components/bootstrap/dist/css/bootstrap.css")
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js")
+    body
+        .container
+            block content
+        script(src="/static/bower_components/bootstrap/dist/js/bootstrap.js")
+        script(src="/static/main.js")
+        script(src="/static/paho-config.js")

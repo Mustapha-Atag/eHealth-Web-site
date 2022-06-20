@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title Patient Health Monitoring
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    link(rel="stylesheet", href="https://www.w3schools.com/w3css/4/w3.css")
+  body
+    #mySidebar.w3-sidebar.w3-bar-block.w3-border-right(style='display:none')
+        button.w3-bar-item.w3-large(onclick='w3_close()') Close ×
+        a.w3-bar-item.w3-button(href='/home') Home page
+        a.w3-bar-item.w3-button(href='/ecg') Electrocardiogram
+    .w3-teal
+        button.w3-button.w3-teal.w3-xlarge(onclick='w3_open()') ☰
+        .w3-container
+            h1 Electrocardiogram 
+    #chartContainer(style='height: 370px; width: 80%; margin: 50px auto')
+    script(src='static/canvasjs.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js' type='text/javascript')
+    script(src="static/main.js")
+    script(src="static/paho-config.js")
+    script(src="static/ecg.js")
+        

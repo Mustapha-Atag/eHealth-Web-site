@@ -1,0 +1,17 @@
+{
+  "name": "ehealth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Atag Mustapha",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.2",
+    "pug": "^3.0.2"
+  }
+}
